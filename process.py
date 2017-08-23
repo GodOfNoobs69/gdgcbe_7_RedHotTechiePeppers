@@ -8,7 +8,7 @@ import sys
 import os
 from stat import *
 
-message = "Toll Paid Succesfully"
+message = "Worst Lone Druid on the Earth"
 im = Image.open("sample1.jpg")
 
 text = pytesseract.image_to_string(im, lang='eng')
@@ -70,3 +70,4 @@ if __name__ == "__main__":
 #print(number)
 cursor.close()
 cnx.close()
+
